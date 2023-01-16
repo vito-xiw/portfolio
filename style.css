@@ -932,7 +932,7 @@ a #product{
 }
 
 .vertical{
-  width:70%;
+  height: 100vh;
 }
 
 .horizontal{
@@ -957,7 +957,7 @@ a #product{
 }
 
 #cityscape .vertical{
-  width:70%;
+  height: 90vh;
 }
 
 #landscape img{
@@ -966,7 +966,7 @@ a #product{
 }
 
 #landscape .vertical{
-  width:70%
+  height: 90vh;
 }
 
 #product img{
@@ -975,7 +975,7 @@ a #product{
 }
 
 #product .vertical{
-  width:70%
+  height: 90vh;
 }
 
 #landscape .horizontal{
