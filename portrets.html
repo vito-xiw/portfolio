@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <title>Vito Vidović - Portfolio</title>
+</head>
+<body>
+    
+    <div class="contact" id="contact">
+        <div class="contact-header">
+            <div class="contact-title">Contact me</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="contact-body">
+            <div class="contact-left">
+                <form action="mailto:vito.vidovic1405@gmail.com">
+                    <input type="text" name="full-name" placeholder="Your full name" maxlength="40">
+                    <input type="number" name="phone" maxlength="20" placeholder="Phone">
+                    <input type="text" name="email" maxlength="60" placeholder="Email">
+                    <input type="text" name="message" placeholder="Message">
+                    <button name="submit">Send mesaage</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <p>If you have any questions or want to work with me, feel free to contact me. My contact details are listed.</p>
+                <p><span>My email adress:</span>
+                <br>vito.vidovic1405@gmail.com</p>
+                <p><span>My phone number:</span>
+                <br>+385 99 811 73 69</p>
+                <a href="https://www.linkedin.com/in/vito-vidovic" target="_blank"><i class="uil uil-linkedin"></i></a>
+                <a href="https://www.facebook.com/vito.vidovic" target="_blank"><i class="uil uil-facebook"></i></a>
+                 <a href="https://www.instagram.com/vito.vidovic/" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <div id="menu-hidden" class="menu-hidden">
+        <a href="./design.html">Design</a>
+        <a href="./photography.html">Photography</a>
+        <a href="./about-me.html">About me</a>
+        <button data-contact-target="#contact" href="">Contact</button>
+    </div>
+    <div class="container">
+        <div id="navbar">
+            <nav>
+                <a href="./index.html" id="logo">xiw portfolio</p>
+                <a href="./design.html">Design</a>
+                <a href="./photography.html">Photography</a>
+                <a href="./about-me.html">About me</a>
+                <button data-contact-target="#contact" href="">Contact</button>
+                <button id="dropdown-button"><i class="uil uil-bars"></i></button>
+            </nav>
+        </div>
+        <div class="content" id="portrets">
+            <img src="./img/portrets/portret_1.jpg" class="vertical">
+            <img src="./img/portrets/portret_2.jpg" class="vertical">
+            <img src="./img/portrets/portret_3.jpg" class="vertical">
+            <img src="./img/portrets/portret_4.jpg" class="vertical">
+            <img src="./img/portrets/portret_6.jpg" class="vertical">
+            <img src="./img/portrets/portret_7.jpg" class="vertical">
+        </div>
+    </div>
+    <footer class="footer-design">
+        <h1>You need web or branding?</h1>
+        <h2>...TO PROMOTE YOUR WORK AND PRESENT YOURSELF TO CLIENTS</h2>
+       <a href="./design.html"><button>View my projects</button></a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
